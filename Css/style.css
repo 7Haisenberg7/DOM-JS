@@ -1,0 +1,36 @@
+.big {
+    font-size: 48px;
+}
+.red {
+    color:red;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+}
+
+#title {
+
+}
+p {
+
+}
+
+ul li:first-child{
+
+}
+a:hover {
+
+}
+
+.text {
+    font-style: italic;
+    color:purple;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
