@@ -97,3 +97,12 @@ btn.addEventListener('click', function(event){
     const pass = document.querySelector('input [type=password]');
     console.log(pass);
 });
+
+//10 -удаление тегов
+//- живая коллекция
+const texts =document.querySelector('content').childNodes;
+console.log(texts);
+const p1=document.querySelector('p'); //выбираем первый параграф в элементе
+p1.outerHTML=""; //удаляем тег - первый параграф 
+console.log(paragraphs);
+console.log(texts);
